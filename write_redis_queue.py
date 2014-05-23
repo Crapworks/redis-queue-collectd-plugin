@@ -127,7 +127,7 @@ def redis_write(v, data=None):
     metric['plugin'] = v.plugin
     metric['plugin_instance'] = v.plugin_instance
     metric['type'] = v.type
-    metric['type_instance'] = v.plugin_instance
+    metric['type_instance'] = v.type_instance
     metric['time'] = v.time
     metric['interval'] = v.interval
 
